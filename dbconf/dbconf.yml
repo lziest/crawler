@@ -1,0 +1,15 @@
+development:
+  driver: sqlite3
+  open: ./crawler_development.db
+
+test:
+  driver: sqlite3
+  open: ./crawler_test.db
+
+staging:
+  driver: sqlite3
+  open: ./crawler_staging.db
+
+production:
+  driver: sqlite3
+  open: ./crawler_production.db
